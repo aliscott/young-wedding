@@ -2,8 +2,6 @@
 title: Andy & Lyndsay
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://locahost:4000" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 markdown: kramdown

@@ -1102,3 +1102,19 @@
 			display: inline-block;
 			width: 5em;
 		}
+
+#register_form_submitted_success {
+	display: none;
+	padding: 5px 0;
+	margin-bottom: 10px;
+	color: #83d3c9;
+	border: 1px solid #83d3c9;
+}
+
+#register_form_submitted_error {
+	display: none;
+	padding: 5px 0;
+	margin-bottom: 10px;
+	color: #DF6E6E;
+	border: 1px solid #DF6E6E;
+}

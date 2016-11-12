@@ -15,8 +15,14 @@
         <p>1st September 2017</p>
         <footer>
             <ul class="buttons vertical">
+                <div id="register_form_submitted_success">
+                  Thank you, your details have been submitted.
+                </div>
+                <div id="register_form_submitted_error">
+                  An error occurred submitting your details.
+                </div>
                 <form id="register_form" action="https://formspree.io/ali.scott@gmail.com" method="POST">
-                  <li><input name="email" id="email" type="text" placeholder="Enter your email"/>
+                  <li><input name="email" id="email" type="email" placeholder="Enter your email"/>
                   <li><button type="submit" class="button fit">Keep me updated</button></li>
                 </form>
             </ul>
