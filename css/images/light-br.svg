@@ -1,11 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="500px" height="500px" viewBox="0 0 500 500" zoomAndPan="disable">
-    <style type="text/css"><![CDATA[
-		line
-		{
-			stroke: rgba(255,255,255,0.2);
-			stroke-width: 1px;
-		}
-    ]]></style>
 	<line x1="500" y1="0" x2="0" y2="500" />
 	<line x1="500" y1="60" x2="60" y2="500" />
 	<line x1="500" y1="120" x2="120" y2="500" />
