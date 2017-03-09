@@ -1102,3 +1102,8 @@
 			display: inline-block;
 			width: 5em;
 		}
+
+#map {
+	width: 100%;
+	height: 400px;
+}
