@@ -1,0 +1,19 @@
+content for:
+- the story
+- hotels
+- link to gift list
+
+
+rsvp
+names of each guest
+email address
+day / evening guest
+if day:
+ - vegetarian / non-vegetarian
+ - dietary requirements
+comments
+
+
+
+Lyndsay & Andy
+Day & evening guest

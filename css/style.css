@@ -362,7 +362,6 @@
 			cursor: default;
 			display: block;
 			margin: 0 0 1.5em 0;
-			opacity: 0.35;
 			text-align: center;
 		}
 
@@ -563,8 +562,8 @@
 /* Wrapper */
 
 	.wrapper {
-		margin-bottom: 5em;
-		padding: 5em;
+		margin-bottom: 2em;
+		padding: 2em;
 	}
 
 		.wrapper.style1 {
