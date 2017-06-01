@@ -124,7 +124,7 @@
 	#banner {
 		background-size: 10em, 10em, auto, cover;
 		padding: 6em 0;
-		min-height: 400px;
+		min-height: 320px;
 	}
 
 		#banner .inner {
