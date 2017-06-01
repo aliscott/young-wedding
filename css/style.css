@@ -818,6 +818,7 @@
 		text-align: center;
 		min-height: 560px;
 		height: 100vh;
+		position: relative;
 	}
 
 		#banner .inner {
@@ -837,6 +838,10 @@
 			opacity: 0;
 			padding: 3em;
 			text-align: center;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
 		}
 
 			#banner .inner header {

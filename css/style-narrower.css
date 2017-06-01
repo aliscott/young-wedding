@@ -75,6 +75,7 @@
 /* Banner */
 
 	#banner {
+		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner-narrow.jpg");
 		margin: 0;
 	}
 
