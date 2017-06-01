@@ -1316,16 +1316,28 @@
 	margin-top: 0;
 }
 
+@media screen and (max-width: 900px) {
+
+}
+
 @media screen and (max-width: 768px) {
 	#timeline .timeline-item.follow {
 		margin-top: 0;
 	}
 
 	#timeline .timeline-item.follow .timeline-content {
-		margin-top: 0px;
+		margin-top: 0;
 	}
 
 	#timeline .timeline-item.follow .timeline-content.right {
+		margin-top: 0;
+	}
+
+	#timeline .timeline-item.follow.long {
+		margin-top: 0;
+	}
+
+	#timeline .timeline-item.follow.long .timeline-content {
 		margin-top: 0;
 	}
 }
