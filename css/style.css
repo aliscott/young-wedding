@@ -1200,7 +1200,7 @@
 #timeline .timeline-item .timeline-content {
   width: 45%;
   background: #fff;
-  padding: 20px;
+  padding: 20px 20px 15px 20px;
   -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
   -ms-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
@@ -1295,11 +1295,19 @@
 }
 
 #timeline .timeline-item.follow {
-	margin-top: -120px;
+	margin-top: -240px;
 }
 
 #timeline .timeline-item.follow .timeline-content {
-	margin-top: -70px;
+	margin-top: -190px;
+}
+
+#timeline .timeline-item.follow.long {
+	margin-top: -480px;
+}
+
+#timeline .timeline-item.follow.long .timeline-content {
+	margin-top: -410px;
 }
 
 #timeline .timeline-item.follow .timeline-content.right {
@@ -1318,6 +1326,10 @@
 	#timeline .timeline-item.follow .timeline-content.right {
 		margin-top: 0;
 	}
+}
+
+.timeline-image {
+	width: 100%;
 }
 
 .wedding-day-details {
