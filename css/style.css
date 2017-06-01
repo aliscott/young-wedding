@@ -55,14 +55,16 @@
 	}
 
 	p, ul, ol, dl, table, blockquote {
+		font-size: 0.8em;
 		margin: 0 0 2em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
+		font-family: 'Amatic SC', cursive;
 		color: inherit;
 		font-weight: 300;
 		line-height: 1.75em;
-		margin-bottom: 1em;
+		margin-bottom: 0.2em;
 		text-transform: uppercase;
 	}
 
@@ -73,12 +75,12 @@
 		}
 
 	h2 {
-		font-size: 1.5em;
+		font-size: 2.4em;
 		letter-spacing: 0.1em;
 	}
 
 	h3 {
-		font-size: 1.15em;
+		font-size: 1.6em;
 		letter-spacing: 0.025em;
 	}
 
@@ -366,7 +368,7 @@
 		}
 
 			.icon.featured:before {
-				font-size: 5em;
+				font-size: 3em;
 				line-height: 1em;
 			}
 
@@ -503,7 +505,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
 		background: none;
-		border: solid 1px;
+		border: solid 2px;
 		color: inherit;
 		cursor: pointer;
 		display: inline-block;
@@ -627,6 +629,7 @@
 	}
 
 		#header h1 {
+			font-size: 1.6em;
 			font-weight: 900;
 			margin: 0;
 		}
@@ -636,11 +639,13 @@
 			}
 
 		#header nav {
+			font-family: 'Amatic SC', cursive;
+			font-size: 1.6em;
 			letter-spacing: 0.075em;
 			position: absolute;
 			right: 1.5em;
 			text-transform: uppercase;
-			top: 0.75em;
+			top: 0.5em;
 		}
 
 			#header nav ul li {
@@ -836,7 +841,7 @@
 				display: inline-block;
 				border-bottom: solid 2px;
 				border-top: solid 2px;
-				margin: 0 0 2em 0;
+				margin: 0 0 0.5em 0;
 				padding: 3px 0 3px 0;
 			}
 
@@ -855,7 +860,6 @@
 			#banner .inner p {
 				letter-spacing: 0.1em;
 				margin: 0;
-				text-transform: uppercase;
 			}
 
 				#banner .inner p a {
@@ -1038,7 +1042,7 @@
 
 	#topPanel,
 	#sidePanel {
-		background: #1c2021;
+		background: #645862;
 		color: white;
 		font-size: 0.8em;
 		letter-spacing: 0.075em;
@@ -1052,6 +1056,8 @@
 
 		#topPanel .link,
 		#sidePanel .link {
+			font-family: 'Amatic SC', cursive;
+			font-size: 1.4em;
 			border: 0;
 			border-top: solid 1px rgba(255, 255, 255, 0.05);
 			color: inherit;
@@ -1204,7 +1210,7 @@
   background: #83d3c9;
   color: #fff;
   margin: -20px -20px 0 -20px;
-  font-weight: 300;
+  font-weight: 900;
   -webkit-border-radius: 3px 3px 0 0;
   -moz-border-radius: 3px 3px 0 0;
   -ms-border-radius: 3px 3px 0 0;
@@ -1303,4 +1309,8 @@
 	#timeline .timeline-item.follow .timeline-content.right {
 		margin-top: 0;
 	}
+}
+
+.wedding-day-details {
+	margin-bottom: 2.4em;
 }
