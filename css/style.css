@@ -1129,11 +1129,16 @@
    margin-top: -400px;
 }
 
-.anchor{
+.anchor {
   display: block;
-  height: 80px;
-  margin-top: -80px;
+  height: 100px;
+  margin-top: -100px;
   visibility: hidden;
+}
+
+#the-story {
+	height: 50px;
+	margin-top: -50px;
 }
 
 #the-story-section {
