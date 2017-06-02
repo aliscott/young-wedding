@@ -1344,6 +1344,11 @@
 }
 
 @media screen and (max-width: 768px) {
+	#timeline {
+		margin: 0 0 0 10px;
+		width: 98%;
+	}
+
 	#timeline .timeline-item.follow {
 		margin-top: 0;
 	}
